@@ -26,7 +26,7 @@ def factorial(x):
     else:
         return factorial(x - 1) * x
 
-print(factorial(8))
+# print(factorial(8))
 
 ###
 ##
@@ -39,10 +39,27 @@ and eventually the factor of the original number x is returned
 ###
 
 # Same program/ solution with using while loop
-num = int(input("Enter your number: "))
-fact = 1
-i = 1
-while i <= num:
-    fact = fact * i;
-    i = i + 1
+
+# num = int(input("Enter your number: "))
+# fact = 1
+# i = 1
+# while i <= num:
+#     fact = fact * i;
+#     i = i + 1
 # print(fact)
+
+
+"""
+Third task
+"""
+
+num = int(input("Your num: "))
+dictionary = {}
+for i in range(1, num+1):
+    # dictionary.update({i: i * i})
+    dictionary[i] = i*i
+print(dictionary)
+
+# Using dictionary comprehension
+dictionary = {i: i*i for i in range(1, num+1)}
+print(dictionary)
