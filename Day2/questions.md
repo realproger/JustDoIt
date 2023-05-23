@@ -20,3 +20,20 @@
 > **_In case of input data being supplied to the question, it should be assumed to be a console input.tuple() method can convert list to tuple_**
 
 ---
+
+# Question 5
+
+### **Question:**
+
+> **_Define a class which has at least two methods:_**
+>
+> - **_getString: to get a string from console input_**
+> - **_printString: to print the string in upper case._**
+
+> **_Also please include simple test function to test the class methods._**
+
+### Hints:
+
+> **_Use **init** method to construct some param
+
+---
