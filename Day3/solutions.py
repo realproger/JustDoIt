@@ -36,3 +36,22 @@ while True:
 
 for each in text:
     print(each)
+
+"""
+10th Task
+"""
+
+duplicated_wrods = input("Enter: ").split(' ')
+duplicated_wrods.sort()
+clean_w = []
+for each in duplicated_wrods:
+    if each not in clean_w:
+        clean_w.append(each)
+print(' '.join(clean_w))
+
+"""
+OTHER VARIANT
+"""
+word = sorted(list(set(input().split())))   #  input string splits -> converting into set() to store unique
+                                            #  element -> converting into list to be able to apply sort
+print(" ".join(word))
