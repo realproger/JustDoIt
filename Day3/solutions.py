@@ -99,3 +99,36 @@ OTHER VARIANT
 lst = [str(i) for i in range(1000,3001)]
 lst = list(filter(lambda i:all(ord(j)%2 == 0 for j in i), lst))   # using lambda to define function inside filter function
 print(",".join(lst))
+
+"""
+13th Task
+"""
+
+def letter_digit_counter():
+    digits = 0
+    letters = 0
+    text = input("Your message: ")
+    for i in text:
+        if i.isalpha():
+            letters+=1
+        elif i.isdigit():
+            digits+=1
+        else:
+            pass
+    print(f"LETTERS - {letters}\nDIGITS - {digits}")
+
+
+letter_digit_counter()
+
+"""
+OTHER VARIANT
+"""
+word = input()
+letter, digits = 0,0
+
+for i in word:
+    if i.isalpha(): # returns True if alphabet
+        letter += 1
+    elif i.isnumeric(): # returns True if numeric
+        digits += 1
+print(f"LETTERS {letter}\n{digits}") # two different types of formating method is shown in both solution
