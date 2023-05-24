@@ -75,3 +75,27 @@ OTHER VARIANT
 data = input().split(',')
 data = list(filter(lambda i:int(i,2)%5==0,data))    # lambda is an operator that helps to write function of one line
 print(",".join(data))
+
+
+"""
+12th Task
+"""
+
+lst = []
+
+for i in range(1000,3001):
+    flag = 1
+    for j in str(i):          # every integer number i is converted into string
+        if ord(j)%2 != 0:     # ord returns ASCII value and j is every digit of i
+            flag = 0          # flag becomes zero if any odd digit found
+    if flag == 1:
+        lst.append(str(i))    # i is stored in list as string
+
+print(",".join(lst))
+
+"""
+OTHER VARIANT
+"""
+lst = [str(i) for i in range(1000,3001)]
+lst = list(filter(lambda i:all(ord(j)%2 == 0 for j in i), lst))   # using lambda to define function inside filter function
+print(",".join(lst))
