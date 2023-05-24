@@ -55,3 +55,23 @@ OTHER VARIANT
 word = sorted(list(set(input().split())))   #  input string splits -> converting into set() to store unique
                                             #  element -> converting into list to be able to apply sort
 print(" ".join(word))
+
+"""
+11 Task
+"""
+
+def check(x):                   # check function returns true if divisible by 5
+    return int(x,2)%5 == 0      # int(x,b) takes x as string and b as base from which
+                                # it will be converted to decimal
+data = input().split(',')
+
+data = list(filter(check,data)) # in filter(func,object) function, elements are picked from 'data' if found True by 'check' function
+print(",".join(data))
+
+"""
+OTHER VARIANT
+"""
+
+data = input().split(',')
+data = list(filter(lambda i:int(i,2)%5==0,data))    # lambda is an operator that helps to write function of one line
+print(",".join(data))
