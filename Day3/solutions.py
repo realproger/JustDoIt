@@ -7,7 +7,7 @@ for i in range(x):
         tmp.append(i*j)
     lst.append(tmp)
 
-# print(lst)
+print(lst)
 
 """
 OTHER VARIANT
@@ -21,3 +21,18 @@ print(lst)
 cs_words = input("Words: ").split(',')
 cs_words.sort()
 print(','.join(cs_words))
+
+
+"""
+9th Task
+"""
+
+text = []
+while True:
+    lines = input("Sentence: ")
+    if len(lines) == 0:
+        break
+    text.append(lines.upper())
+
+for each in text:
+    print(each)
