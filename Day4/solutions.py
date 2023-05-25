@@ -77,3 +77,20 @@ odd_numbers = [str(int(i) ** 2) for i in numbers if int(i) % 2 != 0]
 print(','.join(odd_numbers))
 
 
+"""
+17th Task
+"""
+
+total = 0
+while True:
+    s = input().split()
+    if not s:            # break if the string is empty
+        break
+    cm,num = map(str,s)    # two inputs are distributed in cm and num in string data type
+
+    if cm=='D':
+        total+=int(num)
+    if cm=='W':
+        total-=int(num)
+
+print(total)
