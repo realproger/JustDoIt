@@ -54,3 +54,18 @@ for i in s:
         lst.append(i)
 
 print(",".join(lst))
+
+"""
+19th Task
+"""
+
+journal = []
+while True:
+    sorting_j = input("Name-Age-Score: ").split(',')
+    if not sorting_j[0]:
+        break
+    journal.append(tuple(sorting_j))
+
+journal.sort(key = lambda x: (x[0], int(x[1]), int(x[2])))
+print(journal)
+
