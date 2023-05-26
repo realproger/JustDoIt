@@ -69,3 +69,14 @@ while True:
 journal.sort(key = lambda x: (x[0], int(x[1]), int(x[2])))
 print(journal)
 
+"""
+20th Task
+"""
+
+class MyGen():
+    def is_divisible(self, num):
+        for i in range(0, int(num/7) + 1):
+            yield i * 7
+
+for i in MyGen().is_divisible(int(input("Please enter a number: "))):
+    print(i)
