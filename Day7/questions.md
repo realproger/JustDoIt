@@ -25,3 +25,17 @@
 > **_Use str() to convert a number to string._**
 
 ---
+
+# Question 28
+
+### **Question:**
+
+> **_Define a function that can receive two integer numbers in string form and compute their sum and then print it in console._**
+
+---
+
+### Hints:
+
+> **_Use int() to convert a string to integer._**
+
+---
