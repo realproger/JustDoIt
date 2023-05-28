@@ -31,3 +31,19 @@ print(get_strs_sum(331, 1212))
 
 converting = lambda param_1, param_2: int(param_1) + int(param_2)
 print(converting(212, 123))
+
+
+"""
+29th Task
+"""
+
+def str_concatenating(param_1, param_2):
+    if isinstance(param_1, str) and isinstance(param_2, str):
+        return param_1 + param_2
+    else:
+        raise TypeError("You must pass a string data type parameter to the function")
+
+print(str_concatenating("23", " years old"))
+
+str_concat = lambda str1, str2: str1+str2
+print(str_concat("asd", "asd"))

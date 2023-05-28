@@ -39,3 +39,17 @@
 > **_Use int() to convert a string to integer._**
 
 ---
+
+# Question 29
+
+### **Question:**
+
+> **_Define a function that can accept two strings as input and concatenate them and then print it in console._**
+
+---
+
+### Hints:
+
+> **_Use + sign to concatenate the strings._**
+
+---
