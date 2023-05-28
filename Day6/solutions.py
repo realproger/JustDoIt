@@ -51,3 +51,11 @@ dict_co = sorted(dict_co.items())
 
 for i in dict_co:
     print(f"{i[0]} : {i[1]}")
+
+
+"""
+23th Task
+"""
+
+num = int(input("Enter your num: "))
+print(num**2)

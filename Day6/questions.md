@@ -71,3 +71,19 @@ to:1
 > **_In case of input data being supplied to the question, it should be assumed to be a console input._**
 
 ---
+
+# Question 23
+
+### **Question:**
+
+> **_Write a method which can calculate square value of number_**
+
+---
+
+### Hints:
+
+```
+Using the ** operator which can be written as n**p where means n^p
+```
+
+---
