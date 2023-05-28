@@ -47,3 +47,17 @@ print(str_concatenating("23", " years old"))
 
 str_concat = lambda str1, str2: str1+str2
 print(str_concat("asd", "asd"))
+
+"""
+30th Task
+"""
+
+def get_maxLen(param_1, param_2):
+    param_1_len = len(param_1)
+    param_2_len = len(param_2)
+    if param_1_len > param_2_len:
+        print(param_1)
+    elif param_1_len < param_2_len:
+        print(param_2)
+    else:
+        print(f"{param_1}\n{param_2}")
