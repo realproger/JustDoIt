@@ -105,3 +105,19 @@ The built-in document method is __doc__
 ```
 
 ---
+
+# Question 25
+
+### **Question:**
+
+> **_Define a class, which have a class parameter and have a same instance parameter._**
+
+---
+
+### Hints:
+
+```
+Define an instance parameter, need add it in __init__ method.You can init an object with construct parameter or set the value later
+```
+
+---
