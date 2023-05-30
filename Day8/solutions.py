@@ -47,3 +47,15 @@ def printList():
     print(new_list)
 
 printList()
+
+"""
+34th Task
+"""
+
+def getListItem():
+    new_list = [i**2 for i in range(1, 21)]
+    # for i in range(5):
+    #     print(new_list[i])
+    print(new_list[0:5])
+
+getListItem()
