@@ -16,3 +16,14 @@ def createDict():
     print(new_dict)
 
 createDict()
+
+"""
+32nd Task
+"""
+
+def getKeysDict():
+    new_dict = {i:i**2 for i in range(1, 21)}
+    # for key, value in new_dict.items():
+    #     print(key)
+    print(new_dict.keys())
+getKeysDict()
