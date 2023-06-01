@@ -5,7 +5,15 @@ def printList():
     # print(new_list)
 
     # print(new_list[5:])       # variant
-    
+
     for i in range(5, 20):
         print(new_list[i])
+# printList()
+
+""" 37th Task """
+
+def printTuple():
+    nList = [i ** 2 for i in range(1, 21)]
+    nTuple = tuple(nList)
+    print(nTuple)
 printList()
