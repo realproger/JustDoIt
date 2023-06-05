@@ -18,3 +18,14 @@ def squared(num):
 li = [1,2,3,4,5,6,7,8,9,10]
 li = map(squared,filter(even,given_list))   # first filters number by even number and the apply map() on the resultant elements
 print(list(li))
+
+""" 43rd Task """
+
+result = filter(lambda x: x % 2 == 0, range(1, 21))
+print(list(result))
+
+def even(x):
+    return x%2==0
+
+evenNumbers = filter(even, range(1,21))
+print(list(evenNumbers))

@@ -25,3 +25,17 @@
 > **_Use map() to generate a list.Use filter() to filter elements of a list.Use lambda to define anonymous functions._**
 
 ---
+
+# Question 43
+
+### **Question:**
+
+> **_Write a program which can filter() to make a list whose elements are even number between 1 and 20 (both included)._**
+
+---
+
+### Hints:
+
+> **_Use filter() to filter elements of a list.Use lambda to define anonymous functions._**
+
+---
