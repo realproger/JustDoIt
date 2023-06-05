@@ -55,3 +55,17 @@ Use ** operator to get power of a number.Use range() for loops.Use list.append()
 > **_Use "for" to iterate the tuple. Use tuple() to generate a tuple from a list._**
 
 ---
+
+# Question 40
+
+### **Question:**
+
+> **_Write a program which accepts a string as input to print "Yes" if the string is "yes" or "YES" or "Yes", otherwise print "No"._**
+
+---
+
+### Hints:
+
+> **_Use if statement to judge condition._**
+
+---

@@ -43,3 +43,11 @@ print(tuple(li))
 #######    #########
 tuple2 = tuple(i for i in tp if i % 2 == 0)
 print(tuple2)
+
+""" 40th Task """
+
+text = input("Type: ")
+if text == "yes" or text == "YES" or text == "Yes":
+    print("Yes")
+else:
+    print("No")
