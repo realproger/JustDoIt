@@ -29,3 +29,11 @@ def even(x):
 
 evenNumbers = filter(even, range(1,21))
 print(list(evenNumbers))
+
+""" 44th Task """
+
+def sqr(x):
+    return x*x
+
+squaredNumbers = list(map(sqr, range(1,21)))
+print (squaredNumbers)

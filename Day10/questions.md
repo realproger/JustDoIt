@@ -39,3 +39,17 @@
 > **_Use filter() to filter elements of a list.Use lambda to define anonymous functions._**
 
 ---
+
+# Question 44
+
+### **Question:**
+
+> **_Write a program which can map() to make a list whose elements are square of numbers between 1 and 20 (both included)._**
+
+---
+
+### Hints:
+
+> **_Use map() to generate a list. Use lambda to define anonymous functions._**
+
+---
