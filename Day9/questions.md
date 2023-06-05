@@ -41,3 +41,17 @@ Use ** operator to get power of a number.Use range() for loops.Use list.append()
 > **_Use [n1:n2] notation to get a slice from a tuple._**
 
 ---
+
+# Question 39
+
+### **Question:**
+
+> **_Write a program to generate and print another tuple whose values are even numbers in the given tuple (1,2,3,4,5,6,7,8,9,10)._**
+
+---
+
+### Hints:
+
+> **_Use "for" to iterate the tuple. Use tuple() to generate a tuple from a list._**
+
+---

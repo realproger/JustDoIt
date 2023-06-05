@@ -30,3 +30,16 @@ for i in range(0,5):
 print()
 for i in range(5,10):
     print(tpl[i],end = ' ')
+
+""" 39th Task """
+
+tp = (1,2,3,4,5,6,7,8,9,10)
+li = list()
+
+for i in tp:
+    if i % 2 == 0:
+        li.append(i)
+print(tuple(li))
+#######    #########
+tuple2 = tuple(i for i in tp if i % 2 == 0)
+print(tuple2)
