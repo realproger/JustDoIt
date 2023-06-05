@@ -37,3 +37,18 @@ def sqr(x):
 
 squaredNumbers = list(map(sqr, range(1,21)))
 print (squaredNumbers)
+
+"""45th Task """
+
+class American:
+    @staticmethod
+    def printNationality():
+        print("I am American")
+
+american = American()
+
+american.printNationality()   # this will not run if @staticmethod does not decorates the function.
+                              # Because the class has no instance.
+
+American.printNationality()   # this will run even though the @staticmethod
+                              # does not decorate printNationality()
